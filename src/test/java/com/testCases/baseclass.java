@@ -36,7 +36,7 @@ public class baseclass {
 	public void setup(String br) {
 
 		
-		logger = logger.getLogger("projet2022");
+		logger = logger.getLogger("Projet2022");
 		PropertyConfigurator.configure("log4j.properties");
 		
 		if(br.equals("chrome")) {
